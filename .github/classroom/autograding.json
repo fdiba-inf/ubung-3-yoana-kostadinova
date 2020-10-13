@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "NumberCounter",
+      "setup": "cd src && javac exercise3/NumberCounter.java",
+      "run": "cd src && java exercise3.NumberCounter",
+      "input": "1 -2 4 5 -1 0",
+      "output": "Positive numbers: 3\r\nNegative numbers: 2\r\nSum: 7.0\r\nAverage: 1.4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "PrimeNumber 52",
+      "setup": "cd src && javac exercise3/PrimeNumber.java",
+      "run": "cd src && java exercise3.PrimeNumber",
+      "input": "52",
+      "output": "Prime number: false",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "PrimeNumber 23",
+      "setup": "cd src && javac exercise3/PrimeNumber.java",
+      "run": "cd src && java exercise3.PrimeNumber",
+      "input": "23",
+      "output": "Prime number: true",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "NumberSearch",
+      "setup": "cd src && javac exercise3/NumberSearch.java",
+      "run": "cd src && java exercise3.NumberSearch",
+      "input": "",
+      "output": "120 150 180 210 240 270 300 330 360 390\r\n420 450 480 510 540 570 600 630 660 690\r\n720 750 780 810 840 870 900 930 960 990",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "NamePrinter",
+      "setup": "cd src && javac exercise3/NamePrinter.java",
+      "run": "cd src && java exercise3.NamePrinter",
+      "input": "FDIBA",
+      "output": "* F *\r\n* D *\r\n* I *\r\n* B *\r\n* A *",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "AngleCalculation r",
+      "setup": "cd src && javac exercise3/AngleCalculation.java",
+      "run": "cd src && java exercise3.AngleCalculation",
+      "input": "1 r\r\n2 r\r\n3 q",
+      "output": "Angle: 114.59",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "AngleCalculation d",
+      "setup": "cd src && javac exercise3/AngleCalculation.java",
+      "run": "cd src && java exercise3.AngleCalculation",
+      "input": "60 d\r\n30 d\r\n90 p",
+      "output": "Angle: 0.52",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 6 6 6 Area",
+      "setup": "cd src && javac exercise3/Triangle.java",
+      "run": "cd src && java exercise3.Triangle",
+      "input": "5 5 5\r\n6 6 6\r\n0 0 0",
+      "output": "Area: 15.58",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 6 6 6 Type",
+      "setup": "cd src && javac exercise3/Triangle.java",
+      "run": "cd src && java exercise3.Triangle",
+      "input": "5 5 5\r\n6 6 6\r\n0 0 0",
+      "output": "Triangle: equilateral",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 6 6 3 Type",
+      "setup": "cd src && javac exercise3/Triangle.java",
+      "run": "cd src && java exercise3.Triangle",
+      "input": "5 5 5\r\n6 6 3\r\n0 0 0",
+      "output": "Triangle: isosceles",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 4 5 6 Type",
+      "setup": "cd src && javac exercise3/Triangle.java",
+      "run": "cd src && java exercise3.Triangle",
+      "input": "5 5 5\r\n4 5 6\r\n0 0 0",
+      "output": "Triangle: scalene",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Triangle 2 5 90 Incorrect Values",
+      "setup": "cd src && javac exercise3/Triangle.java",
+      "run": "cd src && java exercise3.Triangle",
+      "input": "5 5 5\r\n2 5 90\r\n0 0 0",
+      "output": "Values are not correct!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
