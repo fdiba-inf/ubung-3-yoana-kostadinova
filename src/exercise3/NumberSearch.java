@@ -8,7 +8,7 @@ if (i%5==0 && i%6==0) {
   System.out.print(" " +i);
   n++;
 }
-if (n>5) {
+if (n>9) {
   System.out.println ("");
   n=0;
 }
