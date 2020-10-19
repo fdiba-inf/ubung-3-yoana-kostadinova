@@ -2,7 +2,7 @@
 # Übung 3
 Quellcode der Vorlesung: https://github.com/fdiba-inf/vorlesung
 ## Repl.it öffnen
-Klicken Sie die Taste _"Work in Repl.it"_.
+Bevor Sie die Taste _"Work in Repl.it"_ klicken, öffnen Sie https://repl.it/auth/github/get, um sicherzustellen, dass Sie in repl.it angemeldet sind.
 ## Aufgabe 1. Nummernzähler
 Erstellen Sie eine neue Klasse mit dem Namen _NumberCounter_ im Paket _exercise3_. 
 Beim Starten soll die Applikation eine unbestimmte Anzahl von Ganzzahlen bearbeiten. 
